@@ -1,0 +1,54 @@
+// ionclude all your related style here in the header, you can leave it empty if the page has no header
+header {
+
+  .header {
+    padding: rem(10px 20px);
+    border-bottom: 1px solid $gray-300;
+
+    &__search-field {
+      margin-left: rem(30px);
+      position: relative;
+      
+      input {
+        font-family: $avenir;
+        width: rem(487px);
+        height: rem(42px);
+        padding-right: rem(35px);
+        border-radius: rem(20px);
+      }
+
+      &:after {
+        font-family: 'Font Awesome 5 Pro';
+        font-weight: 400;
+        font-size: rem(18px);
+        position: absolute;
+        top: rem(9px);
+        right: rem(13px);
+        content: '\f002';
+      }
+    }
+
+    &__user {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+    }
+
+    &__user-icon {
+      font-size: rem(28px);
+      margin-right: rem(10px);
+    }
+
+    &__user-content {
+      
+      span {
+        font-size: rem(13px);
+        display: block;
+      }
+
+      a {
+        color: $siteColor;
+      }
+    }
+  }
+}

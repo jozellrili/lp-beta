@@ -1,0 +1,49 @@
+// include all templated CSS properties here such as font sizes, margin, padding, color, background color, etc
+
+// for width
+$maxWidth   : 1024px; // can be use as max width of the container
+
+// for fonts
+$defaultFont: 'Arial', 'Helvetica', 'Calibri'; // default font families and error support for any html tags
+$fontA      : 'Arial';
+$avenir : 'Avenir';
+
+// for font sizes
+$fontSmall  : 12px;
+$fontMedium : 14px;
+$fontLarge  : 16px;
+$fontxLarge : 18px;
+$fontxxLarge: 20px;
+
+// for colors
+$defaultColor     : #000000; // default color for the independent paragraphs, input fields, etc
+$siteColor        : #034e71; // default color for the website
+$defaultLinkColor : #3189DD; // default link color for the whole site
+$coWhite          : #ffffff;
+$coBlack          : #000000;
+$coBlue           : #377ef9;
+$coRed            : #e82b0d;
+$coAsh            : #878a8f;
+$coOrange            : #eb6106;
+$coYellow            : #ffc703;
+$coGreen            : #1ac403;
+$gray-100: 							#F8FAFD !default;
+$gray-200: 							#DAE1EC !default;
+$gray-300: 							#C1CDE1 !default;
+$gray-400: 							#ADB9CB !default;
+$gray-500: 							#8393A9 !default;
+$gray-600: 							#53657F !default;
+$gray-700: 							#42516B !default;
+$gray-800: 							#3E4C63 !default;
+$gray-900: 							#182940 !default; 
+$gray-1000:             #212529 !default;
+
+// for margin and padding
+$spaceOne   : 10px;
+$spaceTwo   : 20px;
+$spaceThree : 30px;
+$spaceFour  : 40px;
+$spaceFive  : 50px;
+
+// for image sprite
+//$imgSprite: url('');

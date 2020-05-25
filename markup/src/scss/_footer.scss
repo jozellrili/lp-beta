@@ -1,0 +1,72 @@
+// ionclude all your related style here in the footer, you can leave it empty if the page has no footer
+footer { 
+  z-index: 2; 
+  position: relative; 
+
+  .footer {
+
+    &__disclaimer {
+      font-size: rem(14px);
+      background: lighten($gray-200, 4%);
+      padding: rem(40px 0);
+      color: $gray-800;
+
+      dl {
+        margin-bottom: 0;
+        
+        dd {
+          position: relative;
+          padding-left: rem(20px);
+          margin-bottom: rem(10px);
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          &:before {
+            font-family: 'Font Awesome 5 Pro';
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: '\f00c';
+            color: $coGreen;
+          }
+        }
+      }
+    }
+
+    &__text {
+      display: flex;
+      align-items: center;
+      align-content: space-between;
+      background: $siteColor;
+      color: $coWhite;
+      padding: rem(15px 20px);
+      font-size: rem(13px);
+    }
+
+    &__nav {
+      li {
+        display: inline-block;
+
+        a {
+          color: $coWhite;
+          padding-right: rem(10px);
+          padding-left: rem(10px);
+          border-left: 1px solid $coWhite;
+        }
+
+        &:first-child {
+          a {
+            padding-left: 0;
+            border-left: none;
+          }
+        }
+      }
+    }
+
+    &__copyright {
+      margin-left: auto;
+    }
+  }
+}

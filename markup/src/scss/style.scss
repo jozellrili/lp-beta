@@ -1,0 +1,20 @@
+// import all scss files here, please don't remove the notes for this template
+
+// mostly default imports
+@import 'libraries/fonts'; 
+@import 'variables'; 
+@import 'libraries/mixins'; 
+@import 'libraries/reset';
+@import 'typography'; 
+@import 'libraries/easing'; 
+
+// unique imports
+@import 'libraries/pace'; 
+@import 'libraries/preloader'; 
+
+// all customized styles
+@import 'header'; 
+@import 'footer'; 
+@import 'main'; 
+@import 'navigation'; 
+@import 'home'; 
